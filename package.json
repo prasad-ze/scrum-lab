@@ -1,0 +1,27 @@
+{
+  "name": "typescript-vitest-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project with Vitest testing framework",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "typescript",
+    "vitest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^4.0.15",
+    "@vitest/ui": "^4.0.15",
+    "typescript": "^5.7.2",
+    "vitest": "^4.0.15"
+  }
+}
